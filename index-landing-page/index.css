@@ -56,8 +56,8 @@
 #logo {
   width: 100px;
   border-radius: 10px;
+  height: 49px;
 }
-
 .navbar {
   background-color: rgb(255, 255, 255);
   padding: 10px 40px !important;
@@ -588,6 +588,13 @@ p {
     flex-direction: column;
   }
 }
+@media (max-width: 350px) {
+  .img-focus img {
+    width: 100%;
+    height: 150px !important;
+    transition: 1s;
+  }
+}
 /* <!-------------------------------------- End our services  -----------------------------------------> */
 /* <!--------------------------------------- start img focus-------------> */
 
@@ -640,13 +647,15 @@ p {
 .img-focus h5 {
   position: absolute;
   bottom: -258px;
-  background-color: rgba(156, 156, 156, 20%);
+  background-color: rgba(192, 189, 189, 0.5);
   width: 100%;
   height: 100%;
   display: flex;
   align-items: flex-end;
   transition: 0.5s;
   padding: 5px;
+  color: white;
+  font-weight: 700;
 }
 
 .img-focus span {
@@ -656,10 +665,46 @@ p {
   font-weight: 800;
   font-size: 32px;
   transition: 1s;
+  color: white;
+  font-weight: 800;
 }
 .img-focus:hover span {
   top: 45%;
 }
+
+.tittle-focus {
+  width: 85vw;
+  display: flex;
+  align-items: center;
+  margin: 0px auto;
+  justify-content: space-between;
+  margin-top: 30px;
+}
+.tittle-focus p {
+  width: 780px;
+}
+.tittle-focus .btn {
+  padding: 10px !important;
+}
+.tittle-focus span {
+  color: rgb(255, 128, 0);
+}
+
+@media (max-width: 1390px) {
+  .tittle-focus p {
+    font-size: 16px !important;
+    width: 541px;
+  }
+}
+@media (max-width: 1090px) {
+  .tittle-focus {
+    flex-wrap: wrap;
+  }
+  .tittle-focus .btn {
+    margin-top: 10px;
+  }
+}
+
 /* <!--------------------------------------- end img focus---------------> */
 
 /* < !--------------------------------------- Start Footer-------------> */
@@ -667,7 +712,7 @@ footer {
   background-color: rgb(0, 91, 124);
   width: 100vw;
   padding-bottom: 20px;
-  margin-top: 2em;
+  margin-top: 4em;
 }
 
 .container-footer {

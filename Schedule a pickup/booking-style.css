@@ -56,8 +56,8 @@
 #logo {
   width: 100px;
   border-radius: 10px;
+  height: 49px;
 }
-
 .navbar {
   background-color: rgb(255, 255, 255);
   padding: 10px 40px !important;
@@ -223,7 +223,7 @@ input[type='text'] {
   border-radius: 4px;
   box-sizing: border-box;
 }
-input[type='email'] :no {
+input[type='email'] {
   width: 50vw;
   padding: 12px 20px;
   margin: 8px 0;

@@ -113,6 +113,7 @@ p {
 #logo {
   width: 100px;
   border-radius: 10px;
+  height: 49px;
 }
 
 .navbar {

@@ -56,6 +56,7 @@
 #logo {
   width: 100px;
   border-radius: 10px;
+  height: 49px;
 }
 
 .navbar {
@@ -197,7 +198,7 @@ p {
 section {
   padding: 50px 5%;
   background-image: url('https://as2.ftcdn.net/v2/jpg/01/28/82/13/1000_F_128821363_CvenMMSQO7pr9RA1xv0LeUVOc9mdFyCH.jpg');
-  margin-top: 131px;
+  margin-top: 81px;
 }
 .how-it-works-hero {
   max-width: 1000px;
