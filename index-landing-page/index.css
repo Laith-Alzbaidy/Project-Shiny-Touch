@@ -589,10 +589,78 @@ p {
   }
 }
 /* <!-------------------------------------- End our services  -----------------------------------------> */
+/* <!--------------------------------------- start img focus-------------> */
 
-/* <!--------------------------------------- What People Say------------> */
+.imgs-focus {
+  width: 100vw;
+}
 
-/* <!--------------------------------------- What People Say------------> */
+.continar-img-focus {
+  display: grid;
+  grid-template-columns: 45vw 20vw 20vw;
+  justify-content: center;
+}
+
+@media (max-width: 1147px) {
+  .continar-img-focus {
+    grid-template-columns: 30vw 30vw 30vw;
+  }
+}
+
+@media (max-width: 770px) {
+  .continar-img-focus {
+    grid-template-columns: repeat(auto-fill, minmax(60vw, 30vw));
+    gap: 20px;
+  }
+}
+.img-focus {
+  overflow: hidden;
+  position: relative;
+}
+.img-focus img {
+  width: 100%;
+  height: 250px;
+  transition: 1s;
+}
+
+.img-focus:hover img {
+  transform: scale(1.2);
+}
+
+.img-focus:hover h5 {
+  bottom: -7px;
+}
+
+/* .img-focus div {
+  background-color: rgba(156, 156, 156);
+  width: 100%;
+  height: 100%;
+  z-index: 99;
+} */
+.img-focus h5 {
+  position: absolute;
+  bottom: -258px;
+  background-color: rgba(156, 156, 156, 20%);
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: flex-end;
+  transition: 0.5s;
+  padding: 5px;
+}
+
+.img-focus span {
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  font-weight: 800;
+  font-size: 32px;
+  transition: 1s;
+}
+.img-focus:hover span {
+  top: 45%;
+}
+/* <!--------------------------------------- end img focus---------------> */
 
 /* < !--------------------------------------- Start Footer-------------> */
 footer {
