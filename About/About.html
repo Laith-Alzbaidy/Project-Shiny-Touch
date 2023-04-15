@@ -23,7 +23,7 @@
   <body>
    <!-------------------------------------- Start Navbar----------------------------------------->
 
-  <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+ <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
     <a class="navbar-brand" href="#"><img id="logo" src="logo-img.png" alt="" /></a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
       aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -36,26 +36,32 @@
           <a class="nav-link" href="../index-landing-page/index.html">Home </a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="../About/About.html">About Me</a>
+          <a class="nav-link" href="../About/About.Html">About Me</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="../How It Works/How it works.html">How It Work</a>
         </li>
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle"  id="navbarDropdown" role="button" data-toggle="dropdown"
-            aria-haspopup="true" aria-expanded="false ">
-            Services
-          </a>
-          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-            <a class="dropdown-item" href="../services/sevices.html">Services</a>
-            <a class="dropdown-item" href="#">Action</a>
-            <a class="dropdown-item" href="#">Another action</a>
-            <div class="dropdown-divider"></div>
-            <a class="dropdown-item" href="#">Something else here</a>
-          </div>
-        </li>
+        <div class="categories-services">
+          <li class="nav-item">
+            <a class="nav-link" href="../services/sevices.html">Services</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle"  id="navbarDropdown" role="" data-toggle="dropdown"
+              aria-haspopup="true" aria-expanded="false">
+            </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="../services/sevices.html">Services</a>
+              <a class="dropdown-item" href="../categories/dry-cleaning.html">DryClean</a>
+              <a class="dropdown-item" href="../categories/Rug Cleaning.html">Rug Cleaning</a>
+              <a class="dropdown-item" href="../categories/Wash&Fold.html">Wash & Fold Laundry</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="#">Something else here</a>
+            </div>
+          </li>
+
+        </div>
         <li class="nav-item">
-          <a class="nav-link" href="#"> Contact</a>
+          <a class="nav-link" href="../contact/contact.html"> Contact</a>
         </li>
       </ul>
       <form class="form-inline my-2 my-lg-0" action="../Schedule a pickup/booking.html">
