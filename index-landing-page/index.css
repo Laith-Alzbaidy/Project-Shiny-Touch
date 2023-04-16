@@ -759,10 +759,6 @@ footer {
   display: flex;
 }
 
-.icon-quick a:hover i {
-  color: rgb(230, 16, 16);
-}
-
 .icon-quick a i {
   padding: 0 12px 0 0;
 }
@@ -832,6 +828,38 @@ footer p {
   width: 45%;
   margin-bottom: 20px;
 }
+
+/* <!--------------------------Up Scroll-------------------------------> */
+.scroll-up {
+  bottom: 100px;
+  left: 95%;
+  margin-right: 100px;
+  position: fixed;
+  z-index: 9999;
+}
+
+@media (max-width: 1287px) {
+  .scroll-up {
+    left: 92%;
+  }
+}
+@media (max-width: 800px) {
+  .scroll-up {
+    left: 88%;
+  }
+}
+@media (max-width: 500px) {
+  .scroll-up {
+    left: 83%;
+  }
+}
+@media (max-width: 300px) {
+  .scroll-up {
+    left: 80%;
+  }
+}
+
+/* <!--------------------------Up Scroll-------------------------------> */
 
 /* @media (max-width:1250px) {
   html {
