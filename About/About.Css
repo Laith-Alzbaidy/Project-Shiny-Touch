@@ -302,7 +302,6 @@ section {
   min-height: 50vh;
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(15.6em, 38.3em));
-  justify
   gap: 4em;
   justify-content: center;
 }
