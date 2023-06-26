@@ -302,8 +302,9 @@ section {
   min-height: 50vh;
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(15.6em, 38.3em));
-
+  justify
   gap: 4em;
+  justify-content: center;
 }
 
 .why .why-parent .resoan {
@@ -312,7 +313,9 @@ section {
   display: flex;
   align-items: center;
   transition: 1s ease;
+  padding: 10px;
 }
+
 
 .why .why-parent .resoan:hover {
   cursor: pointer;
